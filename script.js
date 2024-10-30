@@ -11,6 +11,20 @@ fiverr:
 itch.io:
 
 */
+
 function link_open(url) {
   window.open(url, '_blank').focus();
+}
+
+function read_get(var_get) {
+  var result = null,
+      tmp = [];
+  location.search
+      .substr(1)
+      .split("&")
+      .forEach(function (item) {
+        tmp = item.split("=");
+        if (tmp[0] === var_get) result = decodeURIComponent(tmp[1]);
+      });
+  return result;
 }
