@@ -32,6 +32,8 @@ Melhor pro pior
 - SQL
 - MongoDB
 - Php
+- Cript
+- Quantum
 --------------------------Template---------------------------------
 Número da Prioridade
 v
