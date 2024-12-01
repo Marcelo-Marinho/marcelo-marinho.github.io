@@ -30,6 +30,5 @@ function read_get(var_get) {
         tmp = item.split("=");
         if (tmp[0] === var_get) result = decodeURIComponent(tmp[1]);
       });
-  
   return result;
 }
